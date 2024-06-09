@@ -1,12 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Hero from './components/hero/Hero'
-import Navbar from './components/navbar/Navbar'
-import './index.css'
+import React, { Children } from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Hero from "./components/hero/Hero";
+import Experience from "./sections/experience/Experience";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Hero />,
+  },
+  {
+    path: "/experience",
+    element: <Experience />,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar />
-    <Hero />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
