@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Hero from "./components/hero/Hero";
 import Experience from "./sections/experience/Experience";
+import Skills from "./sections/skills/Skills";
+import Contact from "./sections/contact/Contact"; 
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -13,6 +15,14 @@ const router = createBrowserRouter([
   {
     path: "/experience",
     element: <Experience />,
+  },
+  {
+    path: "/skills",
+    element: <Skills />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 

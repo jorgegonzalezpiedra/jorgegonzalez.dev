@@ -18,7 +18,7 @@ const Hero = () => {
 
           <p className="text-2xl font-light mt-9 leading-relaxed">
             Durante mis más de 6 años de <Link className="hero__link dark:text-white" to={`/experience`}>experiencia</Link> he tenido la suerte de 
-            trabajar en diferentes proyectos con diferentes <Link className="hero__link dark:text-white" to={`/`}>tecnologías</Link> y
+            trabajar en diferentes proyectos con diferentes <Link className="hero__link dark:text-white" to={`/skills`}>tecnologías</Link> y
             ocupando diferentes roles, pansando de, simplemente "picar codigo",
             a gestionar el ciclo de vida completo de un proyecto (Aunque picar
             codigo siempre será mi parte favorita).
@@ -27,7 +27,7 @@ const Hero = () => {
           <p className="text-2xl font-light mt-9 leading-relaxed">
             Puedes echarle un ojo a mi <Link className="hero__link dark:text-white" to={"https://github.com/jorgegonzalezpiedra"}>GitHub</Link> para ver mis últimos proyectos personales.
             Si quieres colaborar conmigo o simplemente decir "¡Hola!", no dudes
-            en <Link className="hero__link dark:text-white  " to={`/`}>contactarme</Link>.
+            en <Link className="hero__link dark:text-white  " to={`/contact`}>contactarme</Link>.
           </p>
 
           <p className="text-2xl font-light mt-9 leading-relaxed">

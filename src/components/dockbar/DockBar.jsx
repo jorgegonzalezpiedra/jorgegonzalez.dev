@@ -8,7 +8,6 @@ import { MdContactEmergency, MdWork } from "react-icons/md";
 import { FaCode } from "react-icons/fa";
 import { IoMoon, IoSunny } from "react-icons/io5";
 
-
 const DockBar = () => {
   const [dark, setDark] = useState(false);
   const darkModeHandler = () => {
@@ -17,7 +16,7 @@ const DockBar = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center overflow-hidden">
+    <div className="sticky flex flex-col bottom-0 items-center justify-center overflow-hidden mb-10">
       <Dock>
         <DockIcon>
           <Link to={`/`}>
@@ -25,10 +24,14 @@ const DockBar = () => {
           </Link>
         </DockIcon>
         <DockIcon>
-          <MdWork className="h-6 w-6" />
+          <Link to={`/experience`}>
+            <MdWork className="h-6 w-6" />
+          </Link>
         </DockIcon>
         <DockIcon>
-          <FaCode className="h-6 w-6" />
+          <Link to={`/skills`}>
+            <FaCode className="h-6 w-6" />{" "}
+          </Link>
         </DockIcon>
         <DockIcon>
           <MdContactEmergency className="h-6 w-6" />
