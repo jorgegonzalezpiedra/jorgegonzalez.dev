@@ -34,7 +34,9 @@ const DockBar = () => {
           </Link>
         </DockIcon>
         <DockIcon>
+        <Link to={`/contact`}>
           <MdContactEmergency className="h-6 w-6" />
+        </Link>
         </DockIcon>
         <DockIcon>
           <button onClick={() => darkModeHandler()}>
