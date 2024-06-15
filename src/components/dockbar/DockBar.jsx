@@ -19,24 +19,24 @@ const DockBar = () => {
     <div className="sticky flex flex-col bottom-0 items-center justify-center overflow-hidden mb-10">
       <Dock>
         <DockIcon>
-          <Link to={`/`}>
-            <IoIosHome className="h-6 w-6" />
-          </Link>
+          <a href="/">
+            HOME
+          </a>
         </DockIcon>
         <DockIcon>
-          <Link to={`/experience`}>
-            <MdWork className="h-6 w-6" />
-          </Link>
+          <a href="/">
+            SKILLS
+          </a>
         </DockIcon>
         <DockIcon>
-          <Link to={`/skills`}>
+          <a href="/">
             <FaCode className="h-6 w-6" />{" "}
-          </Link>
+          </a>
         </DockIcon>
         <DockIcon>
-        <Link to={`/contact`}>
-          <MdContactEmergency className="h-6 w-6" />
-        </Link>
+          <a href="/">
+            <MdContactEmergency className="h-6 w-6" />
+          </a>
         </DockIcon>
         <DockIcon>
           <button onClick={() => darkModeHandler()}>

@@ -1,27 +1,44 @@
-import { IoMoon, IoSunny } from "react-icons/io5";
-import { useState } from "react";
-
-const Navbar = () => {
-
-    const [dark, setDark] = useState(false);
-    const darkModeHandler = () => {
-      setDark(!dark);
-      document.body.classList.toggle("dark");
-    };
-
-
+"use client";
+import React from "react";
+import { FloatingNav } from "../ui/floating-navbar";
+import { FaCode } from "react-icons/fa";
+export function FloatingNavDemo() {
+  const navItems = [
+    {
+      name: "Sobre mi",
+      link: "/",
+      icon: <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Tecnologias",
+      link: "/about",
+      icon: <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Experiencia",
+      link: "/contact",
+      icon: (
+        <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+    {
+      name: "Proyectos",
+      link: "/contact",
+      icon: (
+        <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    }
+  ];
   return (
-    <div>
-      <button onClick={() => darkModeHandler()}>
-        {
-          dark && <IoSunny /> // render sunny when dark is true
-        }
-        {
-          !dark && <IoMoon /> // render moon when dark is false
-        }
-      </button>
+    <div className="relative  w-full">
+      <FloatingNav navItems={navItems} />
+      <DummyContent />
     </div>
+  );
+}
+const DummyContent = () => {
+  return (<></>
   );
 };
 
-export default Navbar;
+export default FloatingNavDemo;
