@@ -8,6 +8,7 @@ import Contact from "./sections/contact/Contact";
 import { DockBar } from "./components/dockbar/DockBar";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./sections/projects/Projects";
+import Colaborate from "./sections/colaborate/Colaborate";
 import "./index.css";
 
 // const router = createBrowserRouter([
@@ -37,6 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Hero />
     <Skills />
     <Experience />
+    <Colaborate />
     <Projects />
   </React.StrictMode>
 );
