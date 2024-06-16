@@ -11,7 +11,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4  py-10",
         className
       )}
     >
@@ -26,7 +26,7 @@ export const HoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-[#a7dfc6]/[0.8] block rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-[#a7dfc6]/[0.8] block "
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -42,6 +42,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>
+            <CardSubTitle>{item.subtitle}</CardSubTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
         </a>
@@ -57,7 +58,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-white border border-black dark:border-white group-hover:border-slate-700 relative z-20",
+        "h-full w-full p-4 overflow-hidden bg-white border border-black dark:border-white group-hover:border-slate-700 relative z-20",
         className
       )}
     >
@@ -72,9 +73,19 @@ export const CardTitle = ({
   children,
 }) => {
   return (
-    <h4 className={cn("text-black font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-black font-bold tracking-wide mt-4 text-2xl", className)}>
       {children}
     </h4>
+  );
+};
+export const CardSubTitle = ({
+  className,
+  children,
+}) => {
+  return (
+    <h2 className={cn("text-black font-bold tracking-wide mt-4", className)}>
+      {children}
+    </h2>
   );
 };
 export const CardDescription = ({

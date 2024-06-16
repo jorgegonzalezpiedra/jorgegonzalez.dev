@@ -1,6 +1,4 @@
 import "./Hero.css";
-import { Link } from "react-router-dom";
-import hero_developer from "../../assets/hero-developer.gif";
 
 const Hero = () => {
   return (
@@ -53,7 +51,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="md:w-2/5 hidden md:flex items-center justify-center">
-        <img src={hero_developer} alt="me" />
+        <img src="/hero-developer.gif" alt="me" />
       </div>
     </section>
   );
