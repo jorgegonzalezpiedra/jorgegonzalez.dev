@@ -2,7 +2,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section className="flex md:h-screen">
+    <section id="About" className="flex md:h-screen">
       <div className="md:w-3/5 w-full flex items-center p-28">
         <div className="text-left dark:text-white">
           <h1 className="text-7xl font-medium">Hola.</h1>

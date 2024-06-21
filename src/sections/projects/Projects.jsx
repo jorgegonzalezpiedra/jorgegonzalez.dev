@@ -5,7 +5,7 @@ import { WobbleCard } from "../../components/ui/wobble-card";
 const Projects = () => {
   return (
     <>
-      <section className="flex flex-col items-center justify-center mt-10 dark:text-white">
+      <section id="Projects" className="flex flex-col items-center justify-center mt-10 dark:text-white">
         <div>
           <h1 className="text-7xl font-medium">Proyectos</h1>
         </div>

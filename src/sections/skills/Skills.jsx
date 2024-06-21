@@ -6,7 +6,7 @@ const Skills = () => {
   const words = ["Java", "Spring", "Javascript", "Html", "Css", "Sql", "Hibernate", "Git"]; //
 
   return (
-    <section className="flex">
+    <section id="Skills" className="flex">
       <div className="md:w-3/5 w-full flex items-center justify-center">
         <OrbitingCirclesDemo />
       </div>
