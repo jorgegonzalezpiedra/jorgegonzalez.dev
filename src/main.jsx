@@ -9,6 +9,7 @@ import { DockBar } from "./components/dockbar/DockBar";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./sections/projects/Projects";
 import Colaborate from "./sections/colaborate/Colaborate";
+import Footer from "./sections/footer/Footer";
 import "./index.css";
 
 // const router = createBrowserRouter([
@@ -40,5 +41,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Experience />
     <Colaborate />
     <Projects />
+    <Footer/>
   </React.StrictMode>
 );
