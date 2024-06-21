@@ -1,6 +1,8 @@
 import "./Projects.css";
 import "react-vertical-timeline-component/style.min.css";
 import { WobbleCard } from "../../components/ui/wobble-card";
+import personagen from "../../assets/personagen.jpg";
+
 
 const Projects = () => {
   return (
@@ -31,7 +33,7 @@ const Projects = () => {
               </p>
             </div>
             <img
-              src="/personagen.jpg"
+              src={personagen}
               width={500}
               height={500}
               alt="linear demo"
