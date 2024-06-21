@@ -11,19 +11,19 @@ export function FloatingNavDemo() {
     },
     {
       name: "Tecnologias",
-      link: "/about",
+      link: "/skills",
       icon: <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Experiencia",
-      link: "/contact",
+      link: "/experience",
       icon: (
         <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Proyectos",
-      link: "/contact",
+      link: "/projects",
       icon: (
         <FaCode className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),

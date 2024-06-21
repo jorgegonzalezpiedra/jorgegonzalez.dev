@@ -5,7 +5,7 @@ const Colaborate = () => {
   return (
     <>
       <section className="flex flex-col items-center justify-center mt-10 dark:text-white">
-        <TextReveal text="Magic UI will change the way you design.">
+        <TextReveal text="¿Crees que podemos trabajar juntos? Échale un ojo a mi CV.">
         </TextReveal>
       </section>
       {/* <DockBar /> */}
