@@ -10,44 +10,49 @@ const Hero = () => {
           <h2 className="text-4xl font-medium mt-9">Me llamo Jorge.</h2>
 
           <p className="text-2xl font-light mt-9 leading-relaxed">
-            Pero tu puedes llamarme para trabajar. Soy desarrollador web
-            fullstack, pero siendo sinceros, mi ojihref derecho siempre será el
-            backend.
+            Pero mis amigos me llaman "se me ha roto la impresora, échame una
+            mano".
+          </p>
+
+          <p className="text-2xl font-light mt-9 leading-relaxed">
+            Soy desarrollador web fullstack, pero siendo sinceros, mi ojito
+            derecho es el backend.
           </p>
 
           <p className="text-2xl font-light mt-9 leading-relaxed">
             Durante mis más de 6 años de{" "}
-            <a className="hero__link dark:text-white" href="">
+            <a className="hero__link dark:text-white" href="#Experience">
               experiencia
             </a>{" "}
-            he tenido la suerte de trabajar en diferentes proyechrefs con
+            he tenido la suerte de trabajar en diferentes proyectos con
             diferentes{" "}
-            <a className="hero__link dark:text-white" href="">
+            <a className="hero__link dark:text-white" href="#Skills">
               tecnologías
             </a>{" "}
             y ocupando diferentes roles, pansando de, simplemente "picar
-            codigo", a gestionar el ciclo de vida complehref de un proyechref
-            (Aunque picar codigo siempre será mi parte favorita).
+            codigo", a gestionar el ciclo de vida completo de una aplicación
+            web.
           </p>
 
           <p className="text-2xl font-light mt-9 leading-relaxed">
-            Puedes echarle un ojo a mi{" "}
+            Fuera del codigo, soy una persona activa y me puedes encontrar en la
+            cancha de baloncesto o escalando en algún rocodromo.
+          </p>
+
+          <p className="text-2xl font-light mt-9 leading-relaxed">
+            Puedes echarle un ojo a mis{" "}
+            <a className="hero__link dark:text-white" href="#Projects">
+              últimos proyectos
+            </a>{" "}
+            y si crees que podemos colaborar o simplemente quieres decir
+            "¡Hola!", no dudes en{" "}
             <a
               className="hero__link dark:text-white"
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/jorge-gonz%C3%A1lez-piedra-9923b112a/"
+              target="_blank"
             >
-              GitHub
-            </a>{" "}
-            para ver mis últimos proyechrefs personales. Si quieres colaborar
-            conmigo o simplemente decir "¡Hola!", no dudes en{" "}
-            <a className="hero__link dark:text-white" href="">
               contactarme
-            </a>
-            .
-          </p>
-
-          <p className="text-2xl font-light mt-9 leading-relaxed">
-            ¡Chao pescao!
+            </a>.
           </p>
         </div>
       </div>

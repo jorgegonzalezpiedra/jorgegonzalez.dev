@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "../../utils/cn";
+import CV_JorgeGonzalezPiedra2_0 from "../../assets/CV_JorgeGonzalezPiedra2.0.pdf";
 import {
   motion,
   useScroll,
@@ -78,7 +79,8 @@ const Button = ({ children, progress, range }) => {
         className={"text-black dark:text-white"}
       >
         <a
-          href="/"
+          href={CV_JorgeGonzalezPiedra2_0}
+          download="CV_JorgeGonzalezPiedra2.pdf"
           key="1"
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(1)}
@@ -102,7 +104,7 @@ const Button = ({ children, progress, range }) => {
             )}
           </AnimatePresence>
           <button className="h-full w-full p-4 overflow-hidden bg-white dark:bg-gray-800 border border-black dark:border-white  relative z-20">
-            DESCARGA MI CV
+            Descargalo aquí
           </button>
         </a>
       </motion.span>

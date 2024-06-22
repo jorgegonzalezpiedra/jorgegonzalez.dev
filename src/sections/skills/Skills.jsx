@@ -1,5 +1,5 @@
 import "./Skills.css";
-import { OrbitingCirclesDemo } from "../../components/orbitingcircles/OrbitingCircles";
+import { OrbitingCirclesComponent } from "../../components/orbitingcircles/OrbitingCircles";
 import { FlipWords } from "../../components/ui/flip-words";
 
 const Skills = () => {
@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <section id="Skills" className="flex">
       <div className="md:w-3/5 w-full flex items-center justify-center">
-        <OrbitingCirclesDemo />
+        <OrbitingCirclesComponent />
       </div>
       <div className="md:w-3/5 hidden md:flex items-center justify-left">
         <div className="h-[40rem] flex justify-center items-center px-4">

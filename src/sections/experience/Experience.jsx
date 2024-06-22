@@ -7,29 +7,29 @@ const Experience = () => {
       title: "Onetec",
       subtitle: "2023-Actualidad",
       description:
-        "A technology company that builds economic infrastructure for the internet.",
-      link: "https://stripe.com",
+        "Analista java miembro del equipo de desarrollo de Linea Directa realizando tareas de analisis y desarrollo de nuevas funcionalidades sobre la aplicación web. Utilizando metodologías ágiles, API first, Java, Spring y SQL", 
+      link: "https://www.grupoonetec.com/",
     },
     {
       title: "Minsait",
-      subtitle: "2022-2023",
+      subtitle: "2023-2023",
       description:
-        "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-      link: "https://netflix.com",
+        "Programador senior en la Agencia Tributaria enfocado en el desarrollo y testing de servicios web. Utilizando una metodología API first Java y Spring.",
+      link: "https://www.minsait.com/es",
     },
     {
       title: "Neoris",
-      subtitle: "2022-2023",
+      subtitle: "2018-2021",
       description:
-        "A multinational technology company that specializes in Internet-related services and products.",
-      link: "https://google.com",
+        "Programador java en el proyecto Madrid Digital realizando desarrollos sobre diferente aplicaciones web. Utilizando Java, Spring, JSF, Hibernate, Erwin y SQL.",
+      link: "https://neoris.com/es/web/guest/home",
     },
     {
       title: "Viewnext",
-      subtitle: "2022-2023",
+      subtitle: "2017-2018", 
       description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-      link: "https://meta.com",
+        "Miembro del equipo de mantenimiento realizando tareas de análisis y resolución de incidencias sobre la aplicación CRM de Vodafone(Amdocs) utilizando Java Swing.",
+      link: "https://www.viewnext.com/",
     },
   ];
 
@@ -41,7 +41,7 @@ const Experience = () => {
       <div>
         <h1 className="text-7xl font-medium">Experiencia</h1>
       </div>
-      <div className="max-w-5xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-8">
         <HoverEffect items={projects} />
       </div>
     </section>
