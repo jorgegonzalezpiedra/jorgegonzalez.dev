@@ -1,5 +1,4 @@
 import "./Experience.css";
-import { DockBar } from "../../components/dockbar/DockBar";
 import { HoverEffect } from "../../components/ui/card-hover-effect";
 
 const Experience = () => {
@@ -35,17 +34,17 @@ const Experience = () => {
   ];
 
   return (
-    <>
-      <section id="Experience" className="flex flex-col items-center justify-center mt-10 dark:text-white">
-        <div>
-          <h1 className="text-7xl font-medium">Experiencia</h1>
-        </div>
-        <div className="max-w-5xl mx-auto px-8">
-          <HoverEffect items={projects} />
-        </div>
-      </section>
-      {/* <DockBar /> */}
-    </>
+    <section
+      id="Experience"
+      className="flex flex-col items-center justify-center mt-10 dark:text-white"
+    >
+      <div>
+        <h1 className="text-7xl font-medium">Experiencia</h1>
+      </div>
+      <div className="max-w-5xl mx-auto px-8">
+        <HoverEffect items={projects} />
+      </div>
+    </section>
   );
 };
 
