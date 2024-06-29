@@ -29,14 +29,14 @@ const Hero = () => {
             <a className="hero__link dark:text-white" href="#Skills">
               tecnologías
             </a>{" "}
-            y ocupando diferentes roles, pansando de, simplemente "picar
-            codigo", a gestionar el ciclo de vida completo de una aplicación
+            y ocupando diferentes roles pasando de simplemente "picar
+            código", a gestionar el ciclo de vida completo de una aplicación
             web.
           </p>
 
           <p className="text-2xl font-light mt-9 leading-relaxed">
-            Fuera del codigo, soy una persona activa y me puedes encontrar en la
-            cancha de baloncesto o escalando en algún rocodromo.
+            Fuera del código, soy una persona activa y me puedes encontrar en la
+            cancha de baloncesto o escalando en algún rocódromo.
           </p>
 
           <p className="text-2xl font-light mt-9 leading-relaxed">
