@@ -30,7 +30,7 @@ const Hero = () => {
               tecnologías
             </a>{" "}
             y ocupando diferentes roles pasando de simplemente "picar
-            código", a gestionar el ciclo de vida completo de una aplicación
+            código" a gestionar el ciclo de vida completo de una aplicación
             web.
           </p>
 
