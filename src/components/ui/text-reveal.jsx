@@ -1,14 +1,14 @@
 "use client";
 
 import { cn } from "../../utils/cn";
-import CV_JorgeGonzalezPiedra2_0 from "../../assets/CV_JorgeGonzalezPiedra2.0.pdf";
+import CV_JorgeGonzalezPiedra from "../../assets/CV_JorgeGonzalezPiedra2.pdf";
 import {
   motion,
   useScroll,
   useTransform,
   AnimatePresence,
 } from "framer-motion";
-import { FC, ReactNode, useRef, useState } from "react";
+import {useRef, useState } from "react";
 
 export const TextRevealByWord = ({ text, className, showButton }) => {
   const targetRef = useRef(null);
@@ -79,7 +79,7 @@ const Button = ({ children, progress, range }) => {
         className={"text-black dark:text-white"}
       >
         <a
-          href={CV_JorgeGonzalezPiedra2_0}
+          href={CV_JorgeGonzalezPiedra}
           download="CV_JorgeGonzalezPiedra2.pdf"
           key="1"
           className="relative group block p-2 h-full w-full"

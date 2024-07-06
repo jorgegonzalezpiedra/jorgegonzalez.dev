@@ -4,7 +4,7 @@ import hero_developer from "../../assets/hero-developer.gif";
 const Hero = () => {
   return (
     <section id="About" className="flex md:h-screen">
-      <div className="md:w-3/5 w-full flex items-center p-28">
+      <div className="md:w-3/5 w-full flex items-center p-3 md:p-28">
         <div className="text-left dark:text-white">
           <h1 className="text-7xl font-medium">Hola.</h1>
           <h2 className="text-4xl font-medium mt-9">Me llamo Jorge.</h2>
