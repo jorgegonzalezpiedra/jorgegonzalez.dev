@@ -53,7 +53,7 @@ export function OrbitingCirclesComponent() {
         className="h-[50px] w-[50px] border-none bg-transparent"
         radius={160}
         duration={30}
-        delay={20}
+        delay={25}
         reverse
       >
         <HtmlSvg />
@@ -71,40 +71,38 @@ export function OrbitingCirclesComponent() {
         className="h-[40px] w-[40px] border-none bg-transparent"
         radius={160}
         duration={30}
-        delay={40}
+        delay={35}
         reverse
       >
         <JavascriptSvg />
       </OrbitingCircles>
-      <div className="md:hidden sm:absolute sm:flex sm:h-[800px] sm:w-full sm:max-w-[42rem] sm:items-center sm:justify-center sm:overflow-hidden">
-        <OrbitingCircles
-          className="h-[50px] w-[50px] border-none bg-transparent"
-          radius={160}
-          duration={30}
-          delay={45}
-          reverse
-        >
-          <PostgreSvg />
-        </OrbitingCircles>
-        <OrbitingCircles
-          className="h-[50px] w-[50px] border-none bg-transparent"
-          radius={160}
-          duration={30}
-          delay={35}
-          reverse
-        >
-          <GitSvg />
-        </OrbitingCircles>
-        <OrbitingCircles
-          className="h-[50px] w-[50px] border-none bg-transparent"
-          radius={160}
-          duration={30}
-          delay={25}
-          reverse
-        >
-          <PostmanSvg />
-        </OrbitingCircles>
-      </div>
+      <OrbitingCircles
+        className="h-[50px] w-[50px] border-none bg-transparent md:hidden"
+        radius={160}
+        duration={30}
+        delay={8}
+        reverse
+      >
+        <PostgreSvg />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="h-[50px] w-[50px] border-none bg-transparent md:hidden"
+        radius={160}
+        duration={30}
+        delay={13}
+        reverse
+      >
+        <GitSvg />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="h-[50px] w-[50px] border-none bg-transparent md:hidden"
+        radius={160}
+        duration={30}
+        delay={34}
+        reverse
+      >
+        <PostmanSvg />
+      </OrbitingCircles>
 
       <div className="hidden md:absolute md:flex md:h-[800px] md:w-full md:max-w-[42rem] md:items-center md:justify-center md:overflow-hidden">
         <OrbitingCircles

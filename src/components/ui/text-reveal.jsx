@@ -22,7 +22,7 @@ export const TextRevealByWord = ({ text, className, showButton }) => {
     <div ref={targetRef} className={cn("relative z-0 h-[200vh]", className)}>
       <div
         className={
-          "sticky top-0 mx-auto flex flex-col h-[30%] max-w-5xl items-center bg-transparent px-[1rem] py-[5rem] text-center"
+          "sticky top-0 mx-auto flex flex-col h-[30%] items-center bg-transparent px-[1rem] py-[5rem] text-center"
         }
       >
         <p
@@ -55,7 +55,7 @@ export const TextRevealByWord = ({ text, className, showButton }) => {
 const Word = ({ children, progress, range }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <span className="xl:lg-3 relative mx-1 lg:mx-2.5">
+    <span className="text-4xl justify-center relative mx-1 lg:mx-2.5">
       <span className={"absolute opacity-30"}>{children}</span>
       <motion.span
         style={{ opacity: opacity }}
