@@ -1,4 +1,3 @@
-import "./Colaborate.css";
 import TextReveal from "../../components/ui/text-reveal";
 
 const Colaborate = () => {

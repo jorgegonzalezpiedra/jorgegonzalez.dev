@@ -1,4 +1,3 @@
-import "./Experience.css";
 import { HoverEffect } from "../../components/ui/card-hover-effect";
 
 const Experience = () => {

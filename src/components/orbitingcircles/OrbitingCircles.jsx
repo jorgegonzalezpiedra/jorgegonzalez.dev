@@ -14,7 +14,7 @@ import {
 
 export function OrbitingCirclesComponent() {
   return (
-    <div className="relative flex h-[800px] w-full max-w-[42rem] items-center justify-center overflow-hidden">
+    <div className="relative flex h-[600px] w-full max-w-[42rem] items-center justify-center overflow-hidden">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10"></span>
 
       <OrbitingCircles

@@ -1,4 +1,3 @@
-import "./Projects.css";
 import { WobbleCard } from "../../components/ui/wobble-card";
 import personagen from "../../assets/personagen.jpg";
 

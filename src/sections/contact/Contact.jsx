@@ -1,4 +1,3 @@
-import "./Contact.css";
 import "react-vertical-timeline-component/style.min.css";
 
 const Experience = () => {

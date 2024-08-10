@@ -1,4 +1,3 @@
-import "./Footer.css";
 import { LuGithub, LuLinkedin, LuInstagram, LuMail } from "react-icons/lu";
 
 const Footer = () => {
