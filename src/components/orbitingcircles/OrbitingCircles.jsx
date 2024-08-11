@@ -49,11 +49,12 @@ export function OrbitingCirclesComponent() {
         <JunitSvg />
       </OrbitingCircles>
 
+      {/* circulo medio */}
       <OrbitingCircles
         className="h-[50px] w-[50px] border-none bg-transparent"
         radius={160}
         duration={30}
-        delay={25}
+        delay={20}
         reverse
       >
         <HtmlSvg />
@@ -62,7 +63,7 @@ export function OrbitingCirclesComponent() {
         className="h-[50px] w-[50px] border-none bg-transparent"
         radius={160}
         duration={30}
-        delay={35}
+        delay={30}
         reverse
       >
         <CssSvg />
@@ -71,7 +72,7 @@ export function OrbitingCirclesComponent() {
         className="h-[40px] w-[40px] border-none bg-transparent"
         radius={160}
         duration={30}
-        delay={45}
+        delay={40}
         reverse
       >
         <JavascriptSvg />
@@ -80,7 +81,7 @@ export function OrbitingCirclesComponent() {
         className="h-[50px] w-[50px] border-none bg-transparent md:hidden"
         radius={160}
         duration={30}
-        delay={45}
+        delay={35}
         reverse
       >
         <PostgreSvg />
@@ -89,7 +90,7 @@ export function OrbitingCirclesComponent() {
         className="h-[50px] w-[50px] border-none bg-transparent md:hidden"
         radius={160}
         duration={30}
-        delay={53}
+        delay={55}
         reverse
       >
         <GitSvg />
@@ -98,7 +99,7 @@ export function OrbitingCirclesComponent() {
         className="h-[50px] w-[50px] border-none bg-transparent md:hidden"
         radius={160}
         duration={30}
-        delay={64}
+        delay={45}
         reverse
       >
         <PostmanSvg />

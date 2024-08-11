@@ -7,7 +7,7 @@ const Colaborate = () => {
         text="¿Crees que podemos trabajar juntos?"
         showButton={false}
       ></TextReveal>
-      <TextReveal text="Échale un ojo a mi CV." showButton={true}></TextReveal>
+      <TextReveal text="Échale un vistazo a mi curriculum." showButton={true}></TextReveal>
     </section>
   );
 };
