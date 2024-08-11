@@ -2,10 +2,7 @@ import { cn } from "../../utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
-export const HoverEffect = ({
-  items,
-  className,
-}) => {
+export const HoverEffect = ({ items, className }) => {
   let [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -44,6 +41,11 @@ export const HoverEffect = ({
             <CardTitle>{item.title}</CardTitle>
             <CardSubTitle>{item.subtitle}</CardSubTitle>
             <CardDescription>{item.description}</CardDescription>
+            <div className="flex flex-row mx-auto mt-4">
+              {item.svg.map((svg, index) => (
+                <span key={index}>{svg()}</span>
+              ))}
+            </div>
           </Card>
         </a>
       ))}
@@ -51,14 +53,11 @@ export const HoverEffect = ({
   );
 };
 
-export const Card = ({
-  className,
-  children,
-}) => {
+export const Card = ({ className, children }) => {
   return (
     <div
       className={cn(
-        "h-full w-full p-4 overflow-hidden bg-white dark:bg-gray-800 border border-black dark:border-white  relative z-20",
+        "h-full w-full p-4 overflow-hidden bg-white dark:bg-gray-800 border border-black dark:border-white relative z-20",
         className
       )}
     >
@@ -68,30 +67,31 @@ export const Card = ({
     </div>
   );
 };
-export const CardTitle = ({
-  className,
-  children,
-}) => {
+export const CardTitle = ({ className, children }) => {
   return (
-    <h4 className={cn("text-black dark:text-white font-bold tracking-wide mt-4 text-2xl", className)}>
+    <h4
+      className={cn(
+        "text-black dark:text-white font-bold tracking-wide mt-4 text-2xl",
+        className
+      )}
+    >
       {children}
     </h4>
   );
 };
-export const CardSubTitle = ({
-  className,
-  children,
-}) => {
+export const CardSubTitle = ({ className, children }) => {
   return (
-    <h2 className={cn("text-black dark:text-white font-bold tracking-wide mt-4", className)}>
+    <h2
+      className={cn(
+        "text-black dark:text-white font-bold tracking-wide mt-4",
+        className
+      )}
+    >
       {children}
     </h2>
   );
 };
-export const CardDescription = ({
-  className,
-  children,
-}) => {
+export const CardDescription = ({ className, children }) => {
   return (
     <p
       className={cn(
