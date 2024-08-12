@@ -13,19 +13,19 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
         <WobbleCard
-          containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
+          containerClassName="col-span-1 lg:col-span-2 h-full bg-white dark:border-white dark:bg-gray-800 border-black border-2 min-h-[500px] lg:min-h-[300px]"
           className=""
           link={"https://jorgegonzalezpiedra.github.io/personagen-v2-frontend/"}
         >
           <div className="max-w-xs">
-            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] dark:text-white">
               PersonaGen
             </h2>
-            <p className="mt-4 text-left  text-base/6 text-neutral-200">
+            <p className="mt-4 text-left  text-base/6 dark:text-white">
               Aplicación web para la generacion de datos aleatorios de
               documentos y perfiles de usuario.
             </p>
-            <p className="mt-4 text-left  text-base/6 text-neutral-200">
+            <p className="mt-4 text-left  text-base/6 dark:text-white">
               Hecha con Spring React y Tailwind y desplegada con Fly.io y Github
             </p>
           </div>
@@ -38,42 +38,45 @@ const Projects = () => {
           />
         </WobbleCard>
         <WobbleCard
-          containerClassName="col-span-1 min-h-[300px]"
+          containerClassName="col-span-1 min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
           link={"https://jorgegonzalezpiedra.github.io/camel-type/"}
         >
-          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] dark:text-white">
             CamelType
           </h2>
-          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+          <p className="mt-4 max-w-[26rem] text-left  text-base/6 dark:text-white">
             Aplicacion web de tpye testing
           </p>
-          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+          <p className="mt-4 max-w-[26rem] text-left  text-base/6 dark:text-white">
             Hecha con HTML, CSS y Javascript
           </p>
         </WobbleCard>
         <WobbleCard
-          containerClassName="col-span-1 lg:col-span-3 h-full bg-red-700 min-h-[500px] lg:min-h-[300px]"
+          containerClassName="col-span-1 lg:col-span-3 h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
           className=""
           link={"https://sonsofcadia.vercel.app/"}
         >
           <div className="max-w-xs">
-            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] dark:text-white">
               Sons of Cadia
             </h2>
-            <p className="mt-4 text-left  text-base/6 text-neutral-200">
-              Rediseño de página web para la asociación Sons of Cadia ubicada en Pinto, Madrid.
+            <p className="mt-4 text-left  text-base/6 dark:text-white">
+              Rediseño de página web para la asociación Sons of Cadia ubicada en
+              Pinto, Madrid.
             </p>
-            <p className="mt-4 text-left  text-base/6 text-neutral-200">
-              La pagina fue rediseñada por mi, pasando de una página web hecha en WordPress 
-              a una aplicacion estática hecha con React, Tailwind y Supabase. La actual aplicacion cuenta con usuarios y sistema de reservas 
+            <p className="mt-4 text-left  text-base/6 dark:text-white">
+              La pagina fue rediseñada por mi, pasando de una página web hecha
+              en WordPress a una aplicacion estática hecha con React, Tailwind y
+              Supabase. La actual aplicacion cuenta con usuarios y sistema de
+              reservas
             </p>
           </div>
           <img
             src={sonsofcadia}
-            width={600}
+            width={700}
             height={600}
             alt="linear demo"
-            className="absolute -right-4 lg:-right-[5%] filter -bottom-10 object-contain rounded-2xl"
+            className="absolute -right-4 lg:-right-[2%] filter -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
       </div>
