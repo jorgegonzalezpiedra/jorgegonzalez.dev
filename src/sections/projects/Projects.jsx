@@ -45,7 +45,7 @@ const Projects = () => {
             CamelType
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 dark:text-white">
-            Aplicacion web de tpye testing
+            Aplicacion web de type testing
           </p>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 dark:text-white">
             Hecha con HTML, CSS y Javascript
