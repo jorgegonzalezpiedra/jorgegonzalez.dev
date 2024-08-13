@@ -66,9 +66,9 @@ const Projects = () => {
             </p>
             <p className="mt-4 text-left  text-base/6 dark:text-white">
               La pagina fue rediseñada por mi, pasando de una página web hecha
-              en WordPress a una aplicacion estática hecha con React, Tailwind y
-              Supabase. La actual aplicacion cuenta con usuarios y sistema de
-              reservas
+              en WordPress a una aplicacion web dinámica hecha con React, Tailwind y
+              Supabase quecuenta con usuarios y sistema de
+              reservas.
             </p>
           </div>
           <img
