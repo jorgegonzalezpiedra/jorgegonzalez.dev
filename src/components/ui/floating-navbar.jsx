@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import  { useState } from "react";
 import {
   motion,
   AnimatePresence,
@@ -7,7 +7,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "../../utils/cn";
-import { IoMoon, IoSunny } from "react-icons/io5";
+import { IoMoon } from "react-icons/io5";
 import { MdOutlineWbSunny } from "react-icons/md";
 
 export const FloatingNav = ({ navItems, className }) => {

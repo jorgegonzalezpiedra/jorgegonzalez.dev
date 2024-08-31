@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import Hero from "./sections/hero/Hero";
 import Experience from "./sections/experience/Experience";
+import ExperienceTimeline from "./sections/experience/ExperienceTimeline";
 import Skills from "./sections/skills/Skills";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./sections/projects/Projects";
@@ -15,7 +16,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Navbar /> 
     <Hero />
     <Skills />
-    <Experience />
+    {/* <Experience /> */}
+    <ExperienceTimeline />
     <Colaborate />
     <Projects />
     <Footer/>
