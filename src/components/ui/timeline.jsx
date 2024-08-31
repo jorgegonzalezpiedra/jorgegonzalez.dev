@@ -23,7 +23,7 @@ export const Timeline = ({ data }) => {
 
   return (
     <div className="w-full font-sans md:px-10" ref={containerRef}>
-      <div className="flex flex-col items-center justify-center mt-10 dark:text-white">
+      <div className="flex flex-col items-center justify-center mt-24 dark:text-white">
         {/* <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl font-semibold">
           Mi experiencia
         </h2>
@@ -32,8 +32,7 @@ export const Timeline = ({ data }) => {
           historia.
         </p>*/}
         <div>
-          <h1 className="text-7xl font-medium mb-20 md:mb-2">Experiencia</h1>
-          
+          <h1 className="text-7xl font-medium mb-10 md:mb-2">Experiencia</h1>
         </div>
       </div> 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

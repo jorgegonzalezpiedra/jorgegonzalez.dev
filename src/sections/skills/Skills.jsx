@@ -15,7 +15,7 @@ const Skills = () => {
 
   return (
     <section id="Skills">
-      <div className="flex flex-col items-center justify-center mt-10 dark:text-white">
+      <div className="flex flex-col items-center justify-center mt-10 mb-10 dark:text-white">
         <h1 className="text-7xl font-medium">Tecnologías</h1>
       </div>
       <div className="flex">
