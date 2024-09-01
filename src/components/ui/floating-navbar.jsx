@@ -1,5 +1,5 @@
 "use client";
-import  { useState } from "react";
+import { useState } from "react";
 import {
   motion,
   AnimatePresence,
@@ -60,6 +60,7 @@ export const FloatingNav = ({ navItems, className }) => {
       >
         {navItems.map((navItem, idx) => (
           <a
+            aria-label={navItem.name}
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
@@ -75,6 +76,7 @@ export const FloatingNav = ({ navItems, className }) => {
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-green-500 to-transparent  h-px" />
         </button> */}
         <button
+          aria-label="themeToggle"
           className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
           onClick={() => darkModeHandler()}
         >

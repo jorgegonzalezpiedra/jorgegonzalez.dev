@@ -159,7 +159,7 @@ export default function ExperienceTimeline() {
                 href="https://www.tokioschool.com/formaciones/cursos-analisis-datos/big-data/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-blue-500 dark:text-blue-400 font-semibold"
+                className="text-blue-800 dark:text-blue-800 font-bold"
               >
                 Tokio School.
               </a>
