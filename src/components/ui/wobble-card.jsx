@@ -38,7 +38,7 @@ export const WobbleCard = ({
         containerClassName
       )}
     >
-      <a href={link}>
+      <a href={link} target="_blank" rel="noreferrer">
         <div
           className="relative  h-full sm:mx-0  overflow-hidden"
           style={{

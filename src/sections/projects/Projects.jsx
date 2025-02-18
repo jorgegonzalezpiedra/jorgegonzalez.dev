@@ -2,6 +2,7 @@ import { WobbleCard } from "../../components/ui/wobble-card";
 import personagen from "../../assets/personagen.jpg";
 import sonsofcadia from "../../assets/sonsofcadia.png";
 import tipotest from "../../assets/tipotest.png";
+import visioviewer from "../../assets/visioviewer.png";
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
         <WobbleCard
           containerClassName="col-span-1 lg:col-span-3 h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
           className=""
-          link={"https://sonsofcadia.vercel.app/"}
+          link={"https://tipotest.es/"}
         >
           <div className="max-w-xs">
             <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] dark:text-white">
@@ -43,7 +44,7 @@ const Projects = () => {
           />
         </WobbleCard>
         <WobbleCard
-          containerClassName="col-span-1 lg:col-span-3 h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
+          containerClassName="col-span-1 lg:col-span-3   h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
           className=""
           link={"https://sonsofcadia.vercel.app/"}
         >
@@ -64,9 +65,36 @@ const Projects = () => {
           <img
             src={sonsofcadia}
             width={700}
-            height={600}
+            height={700}
             alt="linear demo"
             className="absolute -right-4 lg:-right-[2%] filter -bottom-10 object-contain rounded-2xl"
+          />
+        </WobbleCard>
+        <WobbleCard
+          containerClassName="col-span-1 lg:col-span-3 h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
+          className=""
+          link={"https://visioviewer.vercel.app/"}
+        >
+          <div className="max-w-xs">
+            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] dark:text-white">
+              VisioViewer
+            </h2>
+            <p className="mt-4 text-left  text-base/6 dark:text-white">
+              Herramienta creada en mi etapa laboral en Onetec para agilizar
+              procesos internos
+            </p>
+            <p className="mt-4 text-left  text-base/6 dark:text-white">
+              VisioViewer permite transformar un xml a una diagrama de Microsoft Visio
+              (herramienta de control de flujos algo obsoleta que se utiliza en algunos proyectos legacy) 
+              de manera que modificar el xml sea mucho mas fácil al tener una ayuda visual.
+            </p>
+          </div>
+          <img
+            src={visioviewer}
+            width={700}
+            height={700}
+            alt="VisioViewer image"
+            className="absolute -right-2 lg:-right-[2%] filter -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
         <WobbleCard
