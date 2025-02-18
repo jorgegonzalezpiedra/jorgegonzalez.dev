@@ -226,7 +226,7 @@ export default function ExperienceTimeline() {
     },
     {
       title: "2017-2018",
-      company: "Onetec",
+      company: "Viewnext",
       rol: "Programador Junior",
       content: (
         <div>
