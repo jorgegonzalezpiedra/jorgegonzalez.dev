@@ -267,8 +267,10 @@ export default function ExperienceTimeline() {
     },
   ];
   return (
-    <div className="w-full">
-      <Timeline data={data} />
-    </div>
+    <section id="Experience">
+      <div className="w-full">
+        <Timeline data={data} />
+      </div>
+    </section>
   );
 }
