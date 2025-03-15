@@ -3,6 +3,7 @@ import personagen from "../../assets/personagen.jpg";
 import sonsofcadia from "../../assets/sonsofcadia.png";
 import tipotest from "../../assets/tipotest.png";
 import visioviewer from "../../assets/visioviewer.png";
+import springbootTailwindTemplate from "../../assets/springboot-tailwind-template.png";
 
 const Projects = () => {
   return (
@@ -44,7 +45,29 @@ const Projects = () => {
           />
         </WobbleCard>
         <WobbleCard
-          containerClassName="col-span-1 lg:col-span-3   h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
+          containerClassName="col-span-1 lg:col-span-1 h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
+          className=""
+          link={"https://github.com/jorgegonzalezpiedra/springboot-tailwind-starter"}
+        >
+          <div className="max-w-xs">
+            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] dark:text-white">
+              SpringBoot + Tailwindcss V4 template
+            </h2>
+            <p className="mt-4 max-w-[26rem] text-left  text-base/6 dark:text-white">
+              Un starter template para generar más rápido aplicaciones web con SpringBoot y Tailwindcss. 
+              Basta con clonar el repositorio y empezar a trabajar.
+            </p>
+          </div>
+          <img
+            src={springbootTailwindTemplate}
+            width={700}
+            height={600}
+            alt="linear demo"
+            className="absolute -right-4 lg:-right-[2%] filter -bottom-10 object-contain rounded-2xl"
+          />
+        </WobbleCard>
+        <WobbleCard
+          containerClassName="col-span-1 lg:col-span-2   h-full bg-red-700 min-h-[500px] lg:min-h-[300px] bg-white dark:border-white dark:bg-gray-800 border-black border-2"
           className=""
           link={"https://sonsofcadia.vercel.app/"}
         >
@@ -64,10 +87,10 @@ const Projects = () => {
           </div>
           <img
             src={sonsofcadia}
-            width={700}
-            height={700}
+            width={500}
+            height={500}
             alt="linear demo"
-            className="absolute -right-4 lg:-right-[2%] filter -bottom-10 object-contain rounded-2xl"
+            className="absolute -right-4 lg:-right-[4%] filter -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
         <WobbleCard
